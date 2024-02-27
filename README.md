@@ -34,7 +34,7 @@ The "Reset" button clears the FizzBuzz sequence, allowing for a fresh start.
 Ensure that JavaScript is enabled in your browser for the proper functioning of the FizzBuzz App.
 
 **Author:**  IOAN NEMES
-**Date:**  February 25, 2024
+**Date:**  February 27, 2024
 
 # Final Thoughts:
 That concludes the basic implementation of the FizzBuzz App! Feel free to explore and use this interactive FizzBuzz generator. 
