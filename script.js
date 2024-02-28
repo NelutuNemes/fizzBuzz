@@ -88,8 +88,6 @@ function fizzBuzz() {
     resultElement.innerText = output.join(" " + " , ") + ".";
     userInput.value = "";
 
-    // Enable input after displaying results
-    // userInput.removeAttribute("disabled");
   }
 }
 function reset() {
@@ -98,7 +96,5 @@ function reset() {
   output = [];
   resultElementInfo.innerText = "..........";
   resultElement.innerText = "..........";
-
-  //Enable input after displaying results
   userInput.removeAttribute("disabled");
 }
