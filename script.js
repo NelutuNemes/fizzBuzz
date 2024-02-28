@@ -81,12 +81,15 @@ function fizzBuzz() {
       console.log(
         `${count} / 5 =(${count / 5}), the remainder is :  ${count % 5}`
       );
+      
+      let currentOutput = output[output.length -1];
+      console.log( `So the message of the function will be : ${ currentOutput } !` );
+      console.log('...................');
       count++;
     }
     console.log(output);
     resultElementInfo.innerText = `User choice : ${userInput.value}`;
-    //resultElement.innerText = output.join(" " + " , ") + ".";
-    resultElement.innerText = output.join("\n") + ".";
+    resultElement.innerText = output.join(" " + " , ") + ".";
 
     userInput.value = "";
 
