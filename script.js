@@ -85,7 +85,9 @@ function fizzBuzz() {
     }
     console.log(output);
     resultElementInfo.innerText = `User choice : ${userInput.value}`;
-    resultElement.innerText = output.join(" " + " , ") + ".";
+    //resultElement.innerText = output.join(" " + " , ") + ".";
+    resultElement.innerText = output.join("\n") + ".";
+
     userInput.value = "";
 
     // Enable input after displaying results
