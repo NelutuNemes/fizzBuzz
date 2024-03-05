@@ -24,13 +24,14 @@ User-friendly interface styled with CSS.
 The JavaScript code (script.js) checks divisibility by 3 and 5 to generate the FizzBuzz sequence based on user input. The FizzBuzz function can be triggered by pressing the "Enter" key in addition to clicking the button.
 
 # Styling
-The FizzBuzz sequence elements are styled using the following CSS classes:
+The elements of the FizzBuzz sequence are styled using the following CSS classes:
 
 .yellow-mark: Fizz elements styled in yellow.
 .orange-mark: Buzz elements styled in orange.
 .red-mark: Fizz-Buzz elements styled in red.
-.green-mark: Numeric elements styled in greenyellow.
-Make sure to include these styles in your HTML file or documentation.
+.green-mark: Numeric elements styled in green-yellow.
+
+This styling aims to provide a clearer emphasis on the result of the function, which generates different output based on the fulfilled conditions.
 
 # Reset Functionality
 The "Reset" button clears the FizzBuzz sequence, allowing for a fresh start.
