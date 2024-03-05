@@ -1,4 +1,4 @@
-## FizzBuzz App 
+## FizzBuzz App Version 1
 
 This directory contains the implementation of the FizzBuzz App using HTML, CSS, and JavaScript.
 
